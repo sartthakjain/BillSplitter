@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/background">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:padding="10dp"
+
+       android:layout_height="wrap_content">
+
+
+       <TextView android:text="BILL SPLITTER"
+           android:layout_width="wrap_content"
+           android:textSize="40dp"
+           android:layout_gravity="center"
+           android:textStyle="bold"
+           android:layout_weight="10"
+           android:gravity="center"
+           android:layout_height="match_parent" />
+
+       <LinearLayout
+
+           android:paddingTop="20dp"
+           android:layout_width="match_parent"
+            android:orientation="horizontal"
+           android:weightSum="100"
+           android:layout_height="wrap_content"
+           >
+
+
+
+           <Button
+                android:textSize="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="45dp"
+               android:onClick="sendMessageback"
+               android:hapticFeedbackEnabled="true"
+               android:text="exit"
+               android:layout_weight="50"
+               android:background="#7085b893"
+               android:clickable="true"
+                />
+
+
+           <Button
+               android:hapticFeedbackEnabled="true"
+               android:layout_width="match_parent"
+               android:layout_height="45dp"
+               android:layout_weight="50"
+               android:layout_gravity="right"
+               android:text="next"
+               android:textSize="20dp"
+
+               android:onClick="sendMessage"
+               android:background="#7085b893"
+               android:clickable="true"
+               android:fadingEdge="horizontal|vertical"
+            />
+
+
+
+
+       </LinearLayout>
+
+       <TextView
+        android:layout_width="match_parent"
+        android:paddingTop="45dp"
+        android:id="@+id/tv2"
+        android:textSize="25dp"
+           android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="HOW MANY PEOPLE?"/>
+
+     <NumberPicker
+         android:layout_width="150dp"
+         android:layout_gravity="center"
+         android:layout_height="wrap_content"
+         android:id="@+id/np"
+         android:paddingBottom="45dp"
+         android:paddingTop="45dp">
+
+     </NumberPicker>
+
+
+       <Button
+           android:hapticFeedbackEnabled="true"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="30dp"
+           android:text="PREVIOUS LOGS"
+
+           android:onClick="sendMessage2"
+           android:textSize="15dp"
+           android:background="#7085b893" />
+
+
+   </LinearLayout>
+
+
+</RelativeLayout>

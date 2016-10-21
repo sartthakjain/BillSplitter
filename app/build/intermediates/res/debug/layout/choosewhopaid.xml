@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+    android:background="@drawable/background"
+    android:padding="10dp"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WHO PAID ?"
+        android:gravity="center"
+        android:textSize="40dp"/>
+
+
+    <Button
+        android:hapticFeedbackEnabled="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DONE"
+        android:textSize="20dp"
+        android:background="#7085b893"
+        android:onClick="sendMessage2"
+        android:id="@+id/btdone"/>
+
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YOU"
+        android:onClick="sendMessage"
+        android:id="@+id/cb1"
+        android:textSize="25dp"/>
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YOU"
+
+        android:onClick="sendMessage"
+        android:id="@+id/cb2"
+        android:textSize="25dp"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YOU"
+        android:onClick="sendMessage"
+        android:id="@+id/cb3"
+        android:textSize="25dp"/>
+
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YOU"
+        android:onClick="sendMessage"
+        android:id="@+id/cb4"
+        android:textSize="25dp"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YOU"
+        android:onClick="sendMessage"
+        android:id="@+id/cb5"
+        android:textSize="25dp"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YOU"
+        android:onClick="sendMessage"
+        android:id="@+id/cb6"
+        android:textSize="25dp"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YOU"
+        android:onClick="sendMessage"
+        android:id="@+id/cb7"
+        android:textSize="25dp"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YOU"
+        android:onClick="sendMessage"
+        android:id="@+id/cb8"
+        android:textSize="25dp"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YOU"
+        android:onClick="sendMessage"
+        android:id="@+id/cb9"
+        android:textSize="25dp"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YOU"
+        android:onClick="sendMessage"
+        android:id="@+id/cb10"
+        android:textSize="25dp"/>
+
+
+
+</RadioGroup>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="100"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        android:id="@+id/tvrrr"
+            android:text="person names"
+            android:layout_weight="50"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:id="@+id/tvrr2"
+
+
+            android:text=" ammount paid"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+       android:weightSum="100"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mu1"
+            android:text=""
+            android:layout_weight="50"
+            android:textSize="20dp"/>
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:id="@+id/et1"
+            android:inputType="number"
+            android:hint="Enter ammount"
+            />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="100"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mu2"
+            android:text=""
+            android:layout_weight="50"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:id="@+id/et2"
+            android:inputType="number"
+            android:hint="Enter ammount"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="100"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/mu3"
+            android:layout_weight="50"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:id="@+id/et3"
+            android:inputType="number"
+            android:hint="Enter ammount"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="100"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/mu4"
+            android:layout_weight="50"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:id="@+id/et4"
+            android:hint="Enter ammount"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="100"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/mu5"
+            android:layout_weight="50"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:id="@+id/et5"
+            android:inputType="number"
+            android:hint="Enter ammount"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="100"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+
+            android:id="@+id/mu6"
+            android:layout_weight="50"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:id="@+id/et6"
+            android:inputType="number"
+            android:hint="Enter ammount"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="100"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/mu7"
+            android:layout_weight="50"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:id="@+id/et7"
+            android:inputType="number"
+            android:hint="Enter ammount"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="100"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/mu8"
+            android:layout_weight="50"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:inputType="number"
+            android:id="@+id/et8"
+            android:hint="Enter ammount"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="100"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/mu9"
+            android:layout_weight="50"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:id="@+id/et9"
+            android:hint="Enter ammount"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="100"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/mu10"
+            android:layout_weight="50"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:id="@+id/et10"
+            android:inputType="number"
+            android:hint="Enter ammount"
+            />
+    </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
+<!-- From: file:/C:/android/BillSplitter/app/src/main/res/layout/choosewhopaid.xml -->

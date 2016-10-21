@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DISPLAY"
+                android:gravity="center"
+                android:textSize="45dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="30dp"
+                android:paddingTop="20dp"
+                android:id="@+id/et11"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="30dp"
+                android:visibility="visible"
+                android:paddingTop="20dp"
+                android:id="@+id/et1"
+                android:layout_height="wrap_content" />
+<Button
+    android:hapticFeedbackEnabled="true"
+    android:layout_width="match_parent"
+    android:text="DELETE ENTRY"
+    android:background="#7085b893"
+    android:textSize="30dp"
+    android:onClick="sendMessage"
+    android:layout_height="wrap_content" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

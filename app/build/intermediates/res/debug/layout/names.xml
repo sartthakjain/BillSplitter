@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView android:text="WRITE NAMES"
+        android:layout_width="match_parent"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_weight="28"
+        android:layout_height="80dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:paddingBottom="10dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:hapticFeedbackEnabled="true"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:onClick="sendMessageback"
+            android:text="back"
+            android:textSize="20dp"
+            android:layout_weight="50"
+            android:background="#7085b893"
+            android:clickable="true" />
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:onClick="sendMessage"
+            android:hapticFeedbackEnabled="true"
+            android:textSize="20dp"
+            android:layout_weight="50"
+            android:background="#7085b893"
+            android:text="next"
+            android:clickable="true" />
+        </LinearLayout>
+
+    <AutoCompleteTextView
+
+        android:layout_width="match_parent"
+        android:hint="Write Friend Name"
+        android:visibility="visible"
+        android:paddingTop="20dp"
+        android:id="@+id/et1"
+        android:layout_height="wrap_content" />
+
+
+
+       <AutoCompleteTextView
+        android:layout_weight="50"
+        android:layout_width="match_parent"
+        android:hint="Write Friend Name"
+        android:paddingTop="20dp"
+        android:id="@+id/et2"
+        android:layout_height="wrap_content" />
+
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:hint="Write Friend Name"
+        android:paddingTop="20dp"
+        android:id="@+id/et3"
+        android:layout_height="wrap_content" />
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:hint="Write Friend Name"
+        android:paddingTop="20dp"
+        android:id="@+id/et4"
+        android:layout_height="wrap_content" />
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:hint="Write Friend Name"
+        android:paddingTop="20dp"
+        android:id="@+id/et5"
+        android:layout_height="wrap_content" />
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:hint="Write Friend Name"
+        android:paddingTop="20dp"
+        android:id="@+id/et6"
+        android:layout_height="wrap_content" />
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:hint="Write Friend Name"
+        android:paddingTop="20dp"
+        android:id="@+id/et7"
+        android:layout_height="wrap_content" />
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:hint="Write Friend Name"
+        android:paddingTop="20dp"
+        android:id="@+id/et8"
+        android:layout_height="wrap_content" />
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:hint="Write Friend Name"
+        android:paddingTop="20dp"
+        android:id="@+id/et9"
+        android:layout_height="wrap_content" />
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:hint="Write Friend Name"
+        android:paddingTop="20dp"
+        android:id="@+id/et10"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
+<!-- From: file:/C:/android/BillSplitter/app/src/main/res/layout/names.xml -->

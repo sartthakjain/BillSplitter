@@ -1,0 +1,5 @@
+C:\android\BillSplitter\app\build\intermediates\classes\debug
+C:\android\BillSplitter\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-7a7396d402d9661bb91e3f008e2a8d1b1a841a59.jar
+C:\android\BillSplitter\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-c00ebab0291a124baef025079cd81eb1c5c7f2dc.jar
+C:\android\BillSplitter\app\build\intermediates\pre-dexed\debug\classes-8d0e473acd2192a5e3f6fafaa659cc80ddf0b268.jar
+C:\android\BillSplitter\app\build\intermediates\pre-dexed\debug\classes-dfe17665e266c606666db102a29a50e6f8caa83e.jar

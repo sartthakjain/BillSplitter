@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:padding="10dp"
+   android:background="@drawable/background"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+  <LinearLayout
+      android:layout_width="match_parent"
+
+      android:orientation="vertical"
+      android:layout_height="wrap_content">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="ITEMIZED BILL"
+          android:textSize="40dp"
+      android:paddingBottom="10dp"
+          android:gravity="center"/>
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:orientation="horizontal"
+          android:weightSum="100"
+          android:layout_height="wrap_content">
+
+          <Button
+              android:hapticFeedbackEnabled="true"
+              android:layout_width="match_parent"
+              android:layout_height="45dp"
+              android:onClick="onBackPressed2"
+              android:text="back"
+              android:textSize="20dp"
+              android:layout_weight="50"
+              android:background="#7085b893"
+
+              android:clickable="true" />
+
+          <Button
+              android:hapticFeedbackEnabled="true"
+              android:layout_width="match_parent"
+              android:layout_height="45dp"
+              android:onClick="sendMessageAdd"
+              android:text="NEXT"
+              android:textSize="20dp"
+              android:layout_weight="50"
+              android:background="#7085b893"
+
+              android:clickable="true" />
+      </LinearLayout>
+
+      <LinearLayout
+      android:layout_marginTop="10dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+         android:orientation="horizontal"
+          android:weightSum="100">
+
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="ITEM NAME"
+              android:id="@+id/etiname"
+              android:layout_weight="40"
+              android:textSize="25dp"/>
+
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="RS"
+
+              android:id="@+id/etamt"
+              android:inputType="number"
+              android:layout_weight="60"
+              android:textSize="25dp"/>
+
+      </LinearLayout>
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:weightSum="100"
+          android:layout_height="wrap_content">
+
+          <CheckBox
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/mu1"
+              android:text=""
+              android:layout_weight="50"
+              android:textSize="30dp"/>
+
+          <TextView
+
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="50"
+              android:id="@+id/et1"
+
+              />
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:weightSum="100"
+          android:layout_height="wrap_content">
+
+          <CheckBox
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/mu2"
+              android:text=""
+              android:layout_weight="50"
+              android:textSize="30dp"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="50"
+              android:id="@+id/et2"
+
+              />
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:weightSum="100"
+          android:layout_height="wrap_content">
+
+          <CheckBox
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text=""
+              android:id="@+id/mu3"
+              android:layout_weight="50"
+              android:textSize="30dp"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="50"
+              android:id="@+id/et3"
+              />
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:weightSum="100"
+          android:layout_height="wrap_content">
+
+          <CheckBox
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text=""
+              android:id="@+id/mu4"
+              android:layout_weight="50"
+              android:textSize="30dp"/>
+
+          <TextView
+                android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="50"
+              android:id="@+id/et4"
+              />
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:weightSum="100"
+          android:layout_height="wrap_content">
+
+          <CheckBox
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text=""
+              android:id="@+id/mu5"
+              android:layout_weight="50"
+              android:textSize="30dp"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="50"
+              android:id="@+id/et5"
+              />
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:weightSum="100"
+          android:layout_height="wrap_content">
+
+          <CheckBox
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text=""
+
+              android:id="@+id/mu6"
+              android:layout_weight="50"
+              android:textSize="30dp"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="50"
+              android:id="@+id/et6"
+              />
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:weightSum="100"
+          android:layout_height="wrap_content">
+
+          <CheckBox
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text=""
+              android:id="@+id/mu7"
+              android:layout_weight="50"
+              android:textSize="30dp"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="50"
+              android:id="@+id/et7"
+              />
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:weightSum="100"
+          android:layout_height="wrap_content">
+
+          <CheckBox
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text=""
+              android:id="@+id/mu8"
+              android:layout_weight="50"
+              android:textSize="30dp"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="50"
+
+              android:id="@+id/et8"
+              />
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:weightSum="100"
+          android:layout_height="wrap_content">
+
+          <CheckBox
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text=""
+              android:id="@+id/mu9"
+              android:layout_weight="50"
+              android:textSize="30dp"/>
+
+          <TextView
+              android:layout_width="match_parent"
+
+              android:layout_height="wrap_content"
+              android:layout_weight="50"
+              android:id="@+id/et9"
+
+              />
+      </LinearLayout>
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:weightSum="100"
+          android:layout_height="wrap_content">
+
+          <CheckBox
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text=""
+              android:id="@+id/mu10"
+              android:layout_weight="50"
+              android:textSize="30dp"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="50"
+              android:id="@+id/et10"
+
+              />
+      </LinearLayout>
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:weightSum="100"
+          android:orientation="horizontal"
+          android:layout_height="wrap_content">
+
+
+
+
+          </LinearLayout>
+
+
+
+  </LinearLayout>
+
+</ScrollView>
+</LinearLayout>
+<!-- From: file:/C:/android/BillSplitter/app/src/main/res/layout/itemizedbill.xml -->
